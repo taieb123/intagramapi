@@ -1,0 +1,18 @@
+#instafeed{
+    margin-top: 50px;
+    display :flex;
+    flex-wrap:wrap;
+}
+
+.item_insta{
+    padding-top: 100%;
+    background-size: cover;
+    margin-bottom: 25px;
+    display: block;
+    margin-right: 25px;   
+    background-position: center;
+}
+
+#instafeed .item_instagram{
+    width: 33.33%
+}

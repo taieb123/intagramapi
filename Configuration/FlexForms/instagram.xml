@@ -1,0 +1,75 @@
+<T3DataStructure>
+	<sheets>
+		<!--
+			################################
+			  SHEET General Settings
+			################################
+		-->
+		<sDEF>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:news/Resources/Private/Language/locallang_be.xlf:flexforms_tab.settings</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el>
+				<switchableControllerActions>
+						<TCEforms>
+							<label>Select Action</label>
+							<config>
+								<type>select</type>
+								<renderType>selectSingle</renderType>
+								<items>
+									<numIndex index="0">
+										<numIndex index="0">Instagram Plugin</numIndex>
+										<numIndex index="1">Instagramapi->instagram</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</switchableControllerActions>
+                    <!-- startingpoint -->
+					<settings.nbrItemsDesktop>
+						<TCEforms>
+							<label>Nombre of items for desktop (all if empty):</label>
+							<config>
+								<type>input</type>
+								<size>2</size>
+							</config>
+						</TCEforms>
+					</settings.nbrItemsDesktop>
+					<settings.nbrItemsMobile>
+						<TCEforms>
+							<label>Nombre of items for mobile (all if empty):</label>
+							<config>
+								<type>input</type>
+								<size>2</size>
+							</config>
+						</TCEforms>
+					</settings.nbrItemsMobile>
+					<settings.startingpoint>
+						<TCEforms>
+							<label>LLL:EXT:lang/locallang_general.xlf:LGL.startingpoint</label>
+							<config>
+								<type>group</type>
+								<internal_type>db</internal_type>
+								<allowed>pages</allowed>
+								<size>3</size>
+								<maxitems>50</maxitems>
+								<minitems>0</minitems>
+								<show_thumbs>1</show_thumbs>
+								<wizards>
+									<suggest>
+										<type>suggest</type>
+										<default>
+											<searchWholePhrase>1</searchWholePhrase>
+										</default>
+									</suggest>
+								</wizards>
+							</config>
+						</TCEforms>
+					</settings.startingpoint>
+				</el>
+			</ROOT>
+		</sDEF>
+	</sheets>
+</T3DataStructure>

@@ -1,0 +1,28 @@
+{
+    "name": "instagramapi/instagramapi",
+    "type": "typo3-cms-extension",
+    "description": "This extension let you to create the plugin instagram and refresh the api key every selected period as crown task",
+    "authors": [
+        {
+            "name": "Taieb.rekik",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^8.7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Instagramapi\\Instagramapi\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Instagramapi\\Instagramapi\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "instagramapi": "self.version",
+        "typo3-ter/instagramapi": "self.version"
+    }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2020-09-14T17:18:25Z" product-name="instagramapi">
+		<header/>
+		<body>
+			<trans-unit id="new_token.description">
+				<source>newToken</source>
+			</trans-unit>
+			<trans-unit id="old_token.description">
+				<source>oldToken</source>
+			</trans-unit>
+			<trans-unit id="expires_in.description">
+				<source>expiresIn</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
