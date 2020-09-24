@@ -21,6 +21,30 @@
 			<trans-unit id="tx_instagramapi_instagramapi.description">
 				<source></source>
 			</trans-unit>
+			<trans-unit id="flexforms_tab">
+				<source>Settings</source>
+			</trans-unit>
+			<trans-unit id="flexforms_tab.nbr_item_desktop">
+				<source>Nombre of items for desktop (all if empty)</source>
+			</trans-unit>
+			<trans-unit id="flexforms_tab.nbr_item_mobile">
+				<source>Nombre of items for mobile (all if empty)</source>
+			</trans-unit>
+			<trans-unit id="flexforms_tab.startingpoint">
+				<source>Choose page of instagram configuration</source>
+			</trans-unit>
+			<trans-unit id="flexforms_paginate">
+				<source>Pagination</source>
+			</trans-unit>
+			<trans-unit id="flexforms_paginate.activate">
+				<source>Pagination</source>
+			</trans-unit>
+			<trans-unit id="flexforms_paginate.start_nombre">
+				<source>Start nombre element</source>
+			</trans-unit>
+			<trans-unit id="flexforms_paginate.item_per_pagination">
+				<source>Item per click</source>
+			</trans-unit>
 		</body>
 	</file>
 </xliff>

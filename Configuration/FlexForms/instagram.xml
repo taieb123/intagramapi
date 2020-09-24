@@ -8,7 +8,7 @@
 		<sDEF>
 			<ROOT>
 				<TCEforms>
-					<sheetTitle>LLL:EXT:news/Resources/Private/Language/locallang_be.xlf:flexforms_tab.settings</sheetTitle>
+					<sheetTitle>LLL:EXT:instagramapi/Resources/Private/Language/locallang_db.xlf:flexforms_tab</sheetTitle>
 				</TCEforms>
 				<type>array</type>
 				<el>
@@ -30,7 +30,7 @@
                     <!-- startingpoint -->
 					<settings.nbrItemsDesktop>
 						<TCEforms>
-							<label>Nombre of items for desktop (all if empty):</label>
+							<label>LLL:EXT:instagramapi/Resources/Private/Language/locallang_db.xlf:flexforms_tab.nbr_item_desktop</label>
 							<config>
 								<type>input</type>
 								<size>2</size>
@@ -39,7 +39,7 @@
 					</settings.nbrItemsDesktop>
 					<settings.nbrItemsMobile>
 						<TCEforms>
-							<label>Nombre of items for mobile (all if empty):</label>
+							<label>LLL:EXT:instagramapi/Resources/Private/Language/locallang_db.xlf:flexforms_tab.nbr_item_mobile</label>
 							<config>
 								<type>input</type>
 								<size>2</size>
@@ -48,7 +48,7 @@
 					</settings.nbrItemsMobile>
 					<settings.startingpoint>
 						<TCEforms>
-							<label>LLL:EXT:lang/locallang_general.xlf:LGL.startingpoint</label>
+							<label>LLL:EXT:instagramapi/Resources/Private/Language/locallang_db.xlf:flexforms_tab.startingpoint</label>
 							<config>
 								<type>group</type>
 								<internal_type>db</internal_type>
@@ -71,5 +71,53 @@
 				</el>
 			</ROOT>
 		</sDEF>
+
+			<!--
+					################################
+					  SHEET paginate
+					################################
+				-->
+		<paginate>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:instagramapi/Resources/Private/Language/locallang_db.xlf:flexforms_paginate</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el>
+				<!-- Hide pagination -->
+					<settings.hidePagination>
+						<TCEforms>
+							<label>LLL:EXT:instagramapi/Resources/Private/Language/locallang_db.xlf:flexforms_paginate.activate</label>
+							<config>
+								<type>check</type>
+							</config>
+						</TCEforms>
+					</settings.hidePagination>
+					<!-- Limit Start -->
+					<settings.start_nombre>
+						<TCEforms>
+							<label>LLL:EXT:instagramapi/Resources/Private/Language/locallang_db.xlf:flexforms_paginate.start_nombre</label>
+							<config>
+								<type>input</type>
+								<size>5</size>
+								<eval>num</eval>
+							</config>
+						</TCEforms>
+					</settings.start_nombre>
+
+					<!-- Offset -->
+					<settings.item_per_pagination>
+						<TCEforms>
+							<label>LLL:EXT:instagramapi/Resources/Private/Language/locallang_db.xlf:flexforms_paginate.item_per_pagination</label>
+							<config>
+								<type>input</type>
+								<size>5</size>
+								<eval>num</eval>
+							</config>
+						</TCEforms>
+					</settings.item_per_pagination>
+				</el>
+			</ROOT>
+		</paginate>
 	</sheets>
 </T3DataStructure>
