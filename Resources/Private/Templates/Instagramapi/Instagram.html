@@ -13,11 +13,18 @@
 	Otherwise your changes will be overwritten the next time you save the extension in the extension builder
 
 	<f:section name="content">
-	
-		<h1>Show instagram</h1>
         <div id="instafeed" class="row instagram_plugin"> </div>
         <input type="text" hidden="true" value="{token}" name="token_insta">
         <input type="text" hidden="true" value="{settings.nbrItemsDesktop}" name="item_desktop_insta">
         <input type="text" hidden="true" value="{settings.nbrItemsMobile}" name="item_mobile_insta">
+		<input typr="text" hidden="true" value='{settings.showlikebtn}' name="showlikebtn">
+		<f:if condition="{settings.pagination} == '1'">
+			<f:then>
+				<input type="text" hidden="true" value="{settings.pagination}" name="pagination">
+				<input type="text" hidden="true" value="{settings.start_nombre}" name="start_nombre_pagination">
+				<input type="text" hidden="true" value="{settings.item_per_pagination}" name="item_per_pagination">
+				<div class="row"><button class="more_instagram">Weitere Bilder</button></div>
+			</f:then>
+		</f:if>
 	</f:section>
 </html>

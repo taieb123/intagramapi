@@ -11,8 +11,53 @@
     display: block;
     margin-right: 25px;   
     background-position: center;
+    
 }
 
 #instafeed .item_instagram{
-    width: 33.33%
+    width: 33.33%;
+    position:relative;
+}
+
+.hidden{
+    display: none;
+}
+
+.like-btn {
+    position: absolute;
+    display: block;
+    width: 35px;
+    height: 35px;
+    background: white;
+    border-radius: 0 0 0 4px;
+    transform: rotate(-45deg);
+    animation: pulse 1s infinite;
+    top: calc(50% - 20px);
+    left: calc(50% - 20px);
+    opacity:0;
+    border: 0;
+}
+
+.item_instagram:hover .like-btn{
+    opacity:0.84;
+}
+
+.like-btn::before,
+.like-btn::after {
+    position: absolute;
+    content: "";
+    width: 35px;
+    height: 35px;
+    background: white;
+    border-radius: 50%;
+}
+
+.like-btn::before {
+    top: -20px;
+    left: 0;
+}
+
+.like-btn::after {
+    top: 0;
+    right: -20px;
 }

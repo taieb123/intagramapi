@@ -46,6 +46,14 @@
 							</config>
 						</TCEforms>
 					</settings.nbrItemsMobile>
+					<settings.showlikebtn>
+						<TCEforms>
+							<label>LLL:EXT:instagramapi/Resources/Private/Language/locallang_db.xlf:flexforms_tab.showlikebtn</label>
+							<config>
+								<type>check</type>
+							</config>
+						</TCEforms>
+					</settings.showlikebtn>
 					<settings.startingpoint>
 						<TCEforms>
 							<label>LLL:EXT:instagramapi/Resources/Private/Language/locallang_db.xlf:flexforms_tab.startingpoint</label>
@@ -85,14 +93,14 @@
 				<type>array</type>
 				<el>
 				<!-- Hide pagination -->
-					<settings.hidePagination>
+					<settings.pagination>
 						<TCEforms>
 							<label>LLL:EXT:instagramapi/Resources/Private/Language/locallang_db.xlf:flexforms_paginate.activate</label>
 							<config>
 								<type>check</type>
 							</config>
 						</TCEforms>
-					</settings.hidePagination>
+					</settings.pagination>
 					<!-- Limit Start -->
 					<settings.start_nombre>
 						<TCEforms>

@@ -27,6 +27,9 @@
 			<trans-unit id="flexforms_tab.nbr_item_desktop">
 				<source>Nombre of items for desktop (all if empty)</source>
 			</trans-unit>
+			<trans-unit id="flexforms_tab.showlikebtn">
+				<source>Show like Button</source>
+			</trans-unit>
 			<trans-unit id="flexforms_tab.nbr_item_mobile">
 				<source>Nombre of items for mobile (all if empty)</source>
 			</trans-unit>
