@@ -101,7 +101,6 @@
 							</config>
 						</TCEforms>
 					</settings.pagination>
-					<!-- Limit Start -->
 					<settings.start_nombre>
 						<TCEforms>
 							<label>LLL:EXT:instagramapi/Resources/Private/Language/locallang_db.xlf:flexforms_paginate.start_nombre</label>
@@ -112,8 +111,6 @@
 							</config>
 						</TCEforms>
 					</settings.start_nombre>
-
-					<!-- Offset -->
 					<settings.item_per_pagination>
 						<TCEforms>
 							<label>LLL:EXT:instagramapi/Resources/Private/Language/locallang_db.xlf:flexforms_paginate.item_per_pagination</label>
@@ -124,6 +121,15 @@
 							</config>
 						</TCEforms>
 					</settings.item_per_pagination>
+					<settings.text_load_more>
+						<TCEforms>
+							<label>LLL:EXT:instagramapi/Resources/Private/Language/locallang_db.xlf:flexforms_paginate.text_load_more</label>
+							<config>
+								<type>input</type>
+								<size>10</size>
+							</config>
+						</TCEforms>
+					</settings.text_load_more>
 				</el>
 			</ROOT>
 		</paginate>
