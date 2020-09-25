@@ -33,6 +33,9 @@
 			<trans-unit id="flexforms_paginate.text_load_more">
 				<source>Text for button load more</source>
 			</trans-unit>
+			<trans-unit id="flexforms_tab.title_gallery">
+				<source>Text for title element(optional)</source>
+			</trans-unit>
 			<trans-unit id="flexforms_tab.nbr_item_mobile">
 				<source>Nombre of items for mobile (all if empty)</source>
 			</trans-unit>

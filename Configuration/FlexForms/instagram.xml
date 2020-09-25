@@ -27,7 +27,15 @@
 							</config>
 						</TCEforms>
 					</switchableControllerActions>
-                    <!-- startingpoint -->
+					<settings.title_gallery>
+						<TCEforms>
+							<label>LLL:EXT:instagramapi/Resources/Private/Language/locallang_db.xlf:flexforms_tab.title_gallery</label>
+							<config>
+								<type>input</type>
+								<size>10</size>
+							</config>
+						</TCEforms>
+					</settings.title_gallery>
 					<settings.nbrItemsDesktop>
 						<TCEforms>
 							<label>LLL:EXT:instagramapi/Resources/Private/Language/locallang_db.xlf:flexforms_tab.nbr_item_desktop</label>

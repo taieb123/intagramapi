@@ -6,6 +6,7 @@ This Extension have a lot of function and option we can separate and the biggest
 ## 2 Features
 * Render picture from instagram and show as beautify gallery
 * Regenerate Token instagram for long time living 
+* A new pagination gallery 
 
 ## 3 Usage 
 
@@ -40,7 +41,12 @@ Download and install the [extension][1] with the extension manager module.
 
 ![Front-end plugin2](Documentation/Images/Instruction/Fe_plugin2.png)
 
-5) The Last Config now is for the CRON TASK to regenerate the token of instagram API from [Facebook developer](https://developers.facebook.com/)
+5) Add a paginated gallery 
+
+
+
+
+6) The Last Config now is for the CRON TASK to regenerate the token of instagram API from [Facebook developer](https://developers.facebook.com/)
 
 ![Create cron task](Documentation/Images/Instruction/cron1.png)
 

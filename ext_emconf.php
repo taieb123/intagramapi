@@ -12,7 +12,7 @@
 
 $EM_CONF[$_EXTKEY] = [
     'title' => 'instagram_api',
-    'description' => 'This extension let you to create gallery instagram and refresh the api Key by a scheduler task you can planified',
+    'description' => 'This extension let you to create gallery instagram simple or with pagination and refresh the Access Token Key for instagram by a scheduler task you can planified',
     'category' => 'plugin',
     'author' => 'Taieb.rekik',
     'author_email' => 'taieb20001@gmail.com',
@@ -20,7 +20,7 @@ $EM_CONF[$_EXTKEY] = [
     'uploadfolder' => 0,
     'createDirs' => '',
     'clearCacheOnLoad' => 0,
-    'version' => '1.0.0',
+    'version' => '1.0.1',
     'constraints' => [
         'depends' => [
             'typo3' => '8.7.0-10.5.99',
