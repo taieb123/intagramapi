@@ -44,7 +44,7 @@ Download and install the [extension][1] with the extension manager module.
 5) Add a paginated gallery 
 
 
-
+![pagination](Documentation/Images/Instruction/pagination.png)
 
 6) The Last Config now is for the CRON TASK to regenerate the token of instagram API from [Facebook developer](https://developers.facebook.com/)
 
