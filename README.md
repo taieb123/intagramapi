@@ -55,7 +55,7 @@ Download and install the [extension][1] with the extension manager module.
 
 ## 4 Requirements
 
-- TYPO3 >= 8.7
+- TYPO3 >= 9.4
 
 ## Bugs and Known Issues
 If you find a bug, it would be nice if you add an issue on [Github](https://github.com/taieb123/instagramapi/issues).
